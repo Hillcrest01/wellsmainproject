@@ -1,0 +1,190 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>
+        Wells Fargo
+    </title>
+    <link rel="stylesheet" href="wells.css">
+    <link rel="stylesheet"
+        href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.2.1/css/fontawesome.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+
+    <link rel="shortcut icon" href="img 4.jpg" type="image/x-icon">
+</head>
+
+<body>
+    <div class="head">
+        <span class="fargo">WELLS FARGO</span>
+        <ul class="list">
+            <li><a href="#">ATMs/Location</a></li>
+            <li><a href="#">Help</a></li>
+            <li><a href="#">About Us</a></li>
+            <li><a href="#">Portuguese</a></li>
+        </ul>
+        <input type="search" class="search">
+        <i class="fas fa-search"></i> <br>
+    </div>
+    <hr class="horizontal">
+    </div>
+    <div class="personal">
+        <ul>
+            <li><a href="#">
+                    Personal
+                </a></li>
+            <li><a href="#">Investing and Wealth Management</a></li>
+            <li><a href="#">Small Business</a></li>
+            <li><a href="#">Commercial Banking</a></li>
+            <li><a href="#">Corporate & Investment Banking</a></li>
+        </ul>
+    </div>
+    <div class="check">
+        <ul>
+            <li>Checking</li>
+            <li>Savings & CDS</li>
+            <li> Credit Cards</li>
+            <li>Home Loans</li>
+            <li>Personal Loans</li>
+            <li>Auto Loans</li>
+            <li>Premier</li>
+            <li>Educational & Tools</li>
+        </ul>
+    </div>
+    <div class="simplify">
+        <form class="good" action="sign in">
+            <span class="afternoon">
+                Good afternoon <br>
+            </span>
+            Sign in to manage your accounts <br>
+            <input class="username" type="text" placeholder="Username">
+            <input class="password" type="password" placeholder="Password"> <br>
+            <span class="save">
+                <input class="checkbox" type="checkbox"> Save username <br>
+            </span>
+            <div class="enroll">
+                <button class="button">
+                    Sign in
+                </button>
+                <button class="signin">
+                    <a href="#">Enroll</a>
+                </button>
+            </div>
+            <div class="forgot">
+                <a href="#">Forgot username or password? <br></a>
+                <a href="#">Security Center <br></a>
+                <a href="#">Privacy, Cookies and Legal</a>
+            </div>
+        </form>
+        <p class="life">
+            <span class="your">Simplify your life</span> <br>
+            <span class="money">Your money's at hand with Everyday Checking</span>
+        </p>
+        <p1>
+            <button class="now">
+                <a href="#"> <b>Start now</b></a>
+            </button>
+        </p1>
+    </div>
+    <div class="links">
+        <h6 class="bodyheader">
+            Financial guidance and support
+        </h6>
+        <div id="support">
+            <div class="image3">
+                <img class="girl" src="img3.jpg" alt="an image is supposed to be here">
+                <p class="spend">
+                    Spend less. Save more. Relax more.
+                </p>
+                <p2 class="four">
+                    These four steps could help you make it happen
+                </p2>
+                <button class="manage">
+                    <a class="saving" href="#">
+                        Manage spending and saving
+                    </a>
+                </button>
+            </div>
+            <div class="reduce">
+                <img class="image6" src="img 6.jpg" alt="a father and a child image">
+                <p class="debt">
+                    Reduce debt. Build credit. Enjoy life.
+                </p>
+                <p class="discover">
+                    Discover four steps that may help you reduce debt and strengthen credit
+                </p>
+                <button class="build">
+                    <a class="live" href="#">
+                        Build credit and reduce debt
+                    </a>
+                </button>
+            </div>
+            <div class="tools">
+                <img class="img5" src="img 5.jpg" alt="a girl taking coffee while working on her laptop">
+                <p class="get">
+                    Get tools. Get tips. Get peace of mind.
+                </p>
+                <p class="digital">
+                    Discover digital tools to help you budget, save, manage credit, and more
+                </p>
+                <button class="toolkit">
+                    <a href="#" class="litoolkit">
+                        Access the toolkit
+                    </a>
+                </button>
+            </div>
+        </div>
+    </div>
+    <div class="palm">
+        <p class="hand">
+            Banking in the palm of your hand
+        </p>
+        <p class="mobile">
+            Our Wells Fargo Mobile® app gives you fast and secure access to your finances
+            <br>
+            <br>
+            Check your account balance
+            <br>
+            <br>
+            View your latest FICO® Score1
+            <br>
+            <br>
+            Send and receive money with Zelle®2
+            <br>
+            <br>
+        </p>
+        <p class="download">
+            Download our app
+        </p>
+    </div>
+    <div class="lastpart">
+        <div class="redmen">
+            <img class="lastpart" src="last part.avif" alt="people carrying fargo image is supposed to be here.">
+            <p class="lasthead">
+                <b>Who we are </b> <br><br>
+                Wells Fargo helps strengthen communities through diversity, equity, and inclusion, economic empowerment,
+                and
+                sustainability.
+            </p>
+            <button class="whoweare">
+                <a class="aboutwellsfargo" href="#">About Wells Fargo</a>
+            </button>
+        </div>
+        <div class="flowergirls">
+            <img class="lastimg" src="last part 2.avif"
+                alt="girls walking in a flower plantation image should be shown here">
+            <p class="verylast">
+                <b>Why we are committed to communities</b> <br> <br>
+                We don't just serve our communities—we are our communities. We're committed to helping customers and
+                neighborhoods
+                across the country thrive.
+            </p>
+            <button class="wellsfargostories">
+                <a class="lastlink" href="#">Wells Frago Stories</a>
+            </button>
+        </div>
+    </div>
+</body>
+
+</html>
