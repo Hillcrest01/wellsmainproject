@@ -1,0 +1,566 @@
+body{
+    padding: 0%;
+    box-sizing: border-box;
+}
+.head{
+    background-color: rgb(212, 58, 58);
+    height: 70px;
+}
+.fargo{
+    color: white;
+    font-weight: bold;
+    padding: 18px;
+    font-size: 25px;
+    font-family: 'Times New Roman', Times, serif;
+    margin-right: 800px;
+    text-align: center;
+}
+.list{
+    display: inline-block;
+    padding: 20px;
+}
+.list li{
+    display: inline;
+    color: white;
+    margin: 20px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+.list li a{
+    padding: 10px;
+    text-decoration: none;
+    color: white;
+}
+.list li a:hover{
+    text-decoration: underline;
+    
+}
+.search{
+    height: 30px;
+    width: 100px;
+    border: none;
+    border-bottom: 1px solid black;
+    border-right: 1px solid black;
+    border-radius: 10px;
+    background-color: rgb(212, 58, 58);
+    color: white;
+    margin-right: 50px;
+}
+.signon{
+    width: 100px;
+    height: 30px;
+    border-radius: 12px;
+    border: none;
+    background-color: white;
+    font-weight: bold;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    margin-left: 700px;
+}
+.signon:hover{
+    text-decoration: underline;
+}
+.personal{
+    margin: 20px;
+    margin-left: 60px;
+}
+.personal li{
+    display: inline;
+    padding: 25px;
+}
+.personal li:first-child{
+    padding: 0px;
+}
+.personal li a{
+    text-decoration: none;
+    color: rgb(59, 55, 55);
+    opacity: 0.2px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+.personal li a:hover{
+text-decoration: underline;
+}
+.check li{
+    display: inline;
+    padding: 20px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    margin-top: 30px;
+}
+.check li:hover{
+text-decoration: underline;
+}
+.simplify{
+    background-image: url(bg\ image.jpg);
+    height: 600px;
+    background-repeat:no-repeat ;
+    background-position: center;
+    background-size: cover;
+}
+.good{
+    background-color: white;
+    margin-top: 40px;
+    float: left;
+    height: 450px;
+    width: 300px;
+    margin-left: 10px;
+    border-radius: 10px;
+    letter-spacing: 0.12px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    padding-left: 17px;
+    padding-top: 20px;
+}
+.afternoon{
+    font-size: 25px;
+    color: black;
+    padding-top: 30px;
+}
+.username{
+    margin-top: 27px;
+    /* The next two lines have been added to ensure that when keying in your name a border does not appear all round the text but only on the bottom part*/
+    border: none;
+    border-bottom: 1px solid black;
+    width: 250px;
+    height: 20px;
+    font-size: 20px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+
+}
+.username:focus{
+    outline: none;
+    /* the outline none has been used here to avoid the border that appears when typing inside the input which is usernamer in this case. Also, focus has been used here which has the same function as active in buttons*/
+
+}
+.password{
+    margin-top: 27px;
+    border: none;
+    border-bottom: 1px solid black;
+    width: 250px;
+    height: 20px;
+    font-size: 20px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+.password:focus{
+    outline: none;
+}
+.life{
+   padding: 40px;
+   text-align: center;
+}
+.your{
+    font-size: 50px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    padding-bottom: 30px;
+}
+.money{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.checkbox{
+    margin-top: 20px;
+    width: 20px;
+    height: 20px;
+}
+.button{
+    margin-top: 20px;
+    margin-left: 10px;
+    height: 34px;
+    width: 97px;
+    border: none;
+    border-radius: 10px;
+    background-color: rgb(236, 12, 12);
+}
+.button:hover{
+    text-decoration: underline;
+    background-color:  rgb(214, 47, 47);
+   
+}
+.enroll{
+    display: inline;
+}
+.signin{
+    margin-top: 20px;
+    margin-left: 70px;
+    height: 34px;
+    width: 97px;
+    border: none;
+    border-radius: 10px;
+}
+.signin a{
+    text-decoration: none;
+    color: black;
+}
+.signin a:hover{
+    text-decoration: underline;
+}
+.forgot{
+    margin-top: 30px;
+    background-color: rgb(248, 246, 243);
+    padding: 5px;
+}
+.forgot a{
+    text-decoration: none;
+    color: black;
+}
+.forgot a:hover{
+    text-decoration: underline;
+}
+.now {
+    text-align: center;
+    margin-left: 690px;
+    margin-top: 200px;
+    height: 55px;
+    width: 200px;
+    background-color: white;
+    border-radius: 20px;
+    border: 1px solid black;
+}
+.now a{
+    font-size: 20px;
+    text-decoration: none;
+    color: black;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+.now a:hover{
+    color: white;
+}
+.now:hover{
+    background-color: black;
+    color: rgb(238, 232, 232);
+}
+.mortgage{
+    display: inline;
+    height: 300px;
+    width: 500px;
+    background-color: rgb(41, 223, 102);
+    margin: 20px;
+    border: 1px solid black;
+}
+.find{
+    height: 250px;
+    width: 250px;
+    background-color: rgb(235, 230, 225);
+    margin: 30px;
+    border-radius: 10px;
+    padding: 20px;
+    text-align: center;
+    font-size: 20px;
+    display: inline-block;
+    position: relative;
+    margin-top: 50px;
+}
+.more{
+    text-decoration: none;
+    color: black;
+}
+.more:hover{
+    text-decoration: underline;
+}
+.right{
+    height: 250px;
+    width: 250px;
+    background-color:  rgb(235, 230, 225);
+    display: inline-block;
+    margin: 30px;
+}
+.allimg{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+.assets{
+    width: 300px;
+    height: 350px;
+    background-color: rgb(243, 240, 237);
+    margin: 30px;
+    padding: 20px;
+    border-radius: 10px;
+    display: inline-block;
+}
+.assetsimg{
+    justify-content: space-evenly;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+.loans{
+    display: inline-block;
+    width: 300px;
+    height: 350px;
+    background-color: rgb(243, 240, 237);
+    margin: 20px;
+    padding: 20px;
+    border-radius: 10px;
+}
+.loanimg{
+    justify-content: space-around;
+}
+.education{
+    display: inline-block;
+    width: 300px;
+    height: 350px;
+    background-color: rgb(243, 240, 237);
+    margin: 30px;
+    padding: 20px;
+    border-radius: 10px;
+}
+.bodyheader{
+    text-align: center;
+    font-weight: lighter;
+    font-size: 45px;
+}
+#support{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+.image3{
+    border-radius: 10px;
+    margin: 30px;
+    border: 1px solid black;
+    width: 400px;
+}
+.girl{
+    border-radius: 10px;
+    width: 400px;
+}
+.spend{
+    font-weight: bold;
+    font-size: 22px;
+    padding: 10px;
+    text-align: center;
+}
+.four{
+    padding: 20px;
+    text-align: center;
+    margin-bottom: 10px;
+}
+.manage{
+    margin: 20px;
+    width: 320px; 
+    height: 40px;
+    align-items: center;
+    margin-left: 42px;
+    border-radius: 20px;
+    background-color: white;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 15px;
+    font-weight: bold;
+}
+.saving{
+    color: black;
+    text-decoration: none;
+    flex: 1;
+    justify-content: space-evenly;
+}
+.saving:hover{
+    text-decoration: underline;
+    color: white;
+}
+.manage:hover{
+    background-color: black;
+    color: white;
+    transition-duration: 2s;
+}
+.manage:active{
+    background-color: aquamarine;
+}
+ .reduce{
+    border-radius: 10px;
+    margin: 30px;
+    border: 1px solid black;
+    width: 400px;
+    display: inline-block;
+ }
+.image6{
+    border-radius: 10px;
+    width: 400px;
+}
+.debt{
+    margin: 20px;
+    text-align: center;
+    font-size: 22px;
+    font-weight: bold;
+}
+.discover{
+    margin-left: 10px;
+    font-size: 20px;
+}
+.build{
+    margin: 20px;
+    width: 320px; 
+    height: 40px;
+    align-items: center;
+    margin-left: 42px;
+    border-radius: 20px;
+    background-color: white;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 14px;
+    font-weight: bold;
+}
+.live{
+color: black;
+text-decoration: none;
+}
+.live:hover{
+    text-decoration: underline;
+    color: white;
+}
+.build:hover{
+    background-color: black;
+    transition-duration: 2s;
+    color: white;
+}
+.tools{
+    border-radius: 10px;
+    margin: 30px;
+    border: 1px solid black;
+    width: 400px;
+    display: inline-block;
+}
+.img5{
+    border-radius: 10px;
+    width: 400px;  
+}
+.get{
+    margin: 20px;
+    width: 320px; 
+    height: 40px;
+    border-radius: 20px;
+    background-color: white;
+    font-size: 20px;
+    font-weight: bold;
+}
+.digital{
+    margin-left: 10px;
+    font-size: 20px;
+}
+.toolkit{
+    margin: 20px;
+    width: 320px; 
+    height: 40px;
+    align-items: center;
+    margin-left: 42px;
+    border-radius: 20px;
+    background-color: white;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 14px;
+    font-weight: bold;
+}
+.litoolkit{
+    color: black;
+    text-decoration: none;
+    
+}
+.toolkit:hover{
+    background-color: black;
+    text-decoration: underline;
+    color: white;
+    transition-duration: 2s;
+}
+.litoolkit:hover{
+    color: white    ;
+}
+.palm{
+width: 1000px;
+height: 700px;
+background-color: rgb(130, 79, 177);
+margin-left: 400px;
+border-radius: 10px;
+margin-bottom: 200px;
+}
+.hand{
+    text-align: center;
+    font-size: 40px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    padding: 20px;
+    font-weight: bold;
+    color: white;
+}
+.mobile{
+    padding-left: 60px;
+    margin: 20px;
+    color: white;
+    font-weight: bold;
+    font-size: 20px;
+}
+.download{
+    padding-left: 60px;
+    margin: 20px;
+    color: white;
+    font-weight: bold;
+    font-size: 30px;
+}
+.lastpart{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+.redmen{
+    width: 616px;
+    height: 580px;
+    border: 1px solid black;
+    border-radius: 15px;
+}
+.lastpart{
+    border-radius: 15px;
+}
+.flowergirls{
+    width: 616px;
+    height: 580px;
+    border: 1px solid black;
+    border-radius: 15px;
+}
+.lastimg{
+    border-radius: 15px;
+}
+.lasthead{
+    margin: 20px;
+    font-size: 20px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+.whoweare{
+    margin-top: 20px;
+    margin-left: 13px;
+    width: 200px;
+    height: 40px;
+    border-radius: 10px;
+    background-color: white;
+}
+.aboutwellsfargo{
+    text-decoration: none;
+    color: black;
+    font-size: 17px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+.whoweare:hover{
+    background-color: black;
+    color: white;
+    transition-duration: 1s;
+}
+.aboutwellsfargo:hover{
+    color: white;
+}
+.verylast{
+    margin: 20px;
+    font-size: 20px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+.wellsfargostories{
+    margin-top: 20px;
+    margin-left: 13px;
+    width: 200px;
+    height: 40px;
+    border-radius: 10px;
+    background-color: white;
+}
+.lastlink{
+    text-decoration: none;
+    color: black;
+    font-size: 17px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+.wellsfargostories:hover{
+    background-color: black;
+    color: white;
+    transition-duration: 1s;
+}
+.lastlink:hover{
+    color: white;
+}
